@@ -1,0 +1,74 @@
+h1, h3 {
+    color: #004080;
+    text-align: center;
+}
+
+.main {
+    background-color: #cce6ff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: #99c2ff;
+    margin: 40px;
+}
+.main:hover {
+    background-color: #bfd8fd;
+}
+
+body {
+    background-color: #e0f2ff;
+    margin: 0;
+    padding: 0;
+    color: #1a1a1a;
+}
+
+table {
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: #4d94ff;
+    width: 90%;
+    margin: 20px auto;
+}
+
+td {
+    border: 1px solid #4d94ff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #003366;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 80, 0.2);
+    transition: background-color 0.3s ease;
+    background-color: #3399ff;
+}
+button:hover {
+    background-color: #267acc;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #b3d9ff;
+}
+tr:nth-child(odd) {
+    background-color: #d6eaff;
+}
